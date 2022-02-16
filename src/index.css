@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.answer > span, .question > span{
+ width: auto;
+ height: 300px;
+ border-radius: 25px;
+}
+
+#question, #answer {
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+}
